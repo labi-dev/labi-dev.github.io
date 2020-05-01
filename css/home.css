@@ -1,0 +1,21 @@
+body {
+	overflow-x: hidden;
+	color: rgba(255, 255, 255, .8);
+}
+
+/*Landing Page*/
+
+.home-inner {
+	background-image: url(../images/background.jpg);
+}
+
+.caption {
+	width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 38%;
+}
+
+.caption h1 {
+	font-size: 6rem;
+}

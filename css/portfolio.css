@@ -1,0 +1,30 @@
+body{
+	margin: 0px;
+	background-color: #71eeb8!important;
+}
+h1{
+	font-family: sans-serif;
+	font-size: 3em;
+	font-weight: 100;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width: 400px;
+	text-align: center;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px;
+}
+.imgGallery{
+	width: 300px;
+	height: 200px;
+	margin: 10px;
+	border-radius: 10%;
+	transition: all 1s;
+}
+.imgGallery:hover{
+	transform: scale(1.1);
+}
+#container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}

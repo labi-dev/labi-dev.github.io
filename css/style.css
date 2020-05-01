@@ -1,0 +1,36 @@
+body{
+	font-family: sans-serif;
+	margin: 0px;
+}
+.container{
+	/*background-color: khaki;*/
+	align-content: center;
+}
+#profile{
+	border-radius: 50%;
+	margin-right: 10px;
+	float: left;
+}
+#endFloat{
+	clear: both;
+}
+#shortIntro{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.links{
+	list-style: none;
+	display: inline-block;
+	margin-left: 0px;
+	margin-right: 10px;
+	/*border: 2px solid black;*/
+}
+li a{
+	text-decoration: none;
+}
+li a:hover{
+	text-decoration: underline;
+}
+p{
+	line-height: 25px;
+}
